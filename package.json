@@ -6,8 +6,9 @@
   "scripts": {
     "start": "npx http-server . -p 8080 -c-1",
     "serve": "npx http-server . -p 8080 -c-1",
-    "open": "start http://localhost:8080"
+    "open": "start https://mutyalaharshith.github.io/Github-Toolkit/"
   },
   "author": "Mutyala Harshith",
   "license": "MIT"
 }
+
