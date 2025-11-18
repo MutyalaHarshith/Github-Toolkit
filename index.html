@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Toolkit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quickly generate ZIP download links for GitHub repos and view user profiles.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-brand">
+            <svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L2 7v6c0 5 4 9 10 9s10-4 10-9V7l-10-5z"/></svg>
+            <span>GitHub Toolkit</span>
+        </div>
+        <nav class="nav-actions">
+            <a href="https://github.com/MutyalaHarshith/GitHub-Toolkit" target="_blank" rel="noopener" class="btn ghost">Source Code</a>
+        </nav>
+    </header>
+
+    <main class="container" role="main">
+        <section class="panel">
+            <h2 class="panel-title">Download GitHub Repo ZIP</h2>
+            <div class="block">
+                <label for="repoLink">GitHub Repository Link:</label>
+                <div class="input-row">
+                    <input type="text" id="repoLink" placeholder="https://github.com/user/repo" aria-label="GitHub repository link">
+                    <div class="button-group">
+                        <button id="zipBtn" class="btn primary" onclick="generateZip()">Generate ZIP Link</button>
+                        <button class="btn" onclick="copyZip()">Copy ZIP Link</button>
+                    </div>
+                </div>
+                <div id="zipResult" class="result" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <h2 class="panel-title">View GitHub User Profile</h2>
+            <div class="block">
+                <label for="githubUser">GitHub Username:</label>
+                <div class="input-row">
+                    <input type="text" id="githubUser" placeholder="e.g. MutyalaHarshith" aria-label="GitHub username">
+                    <div class="button-group">
+                        <button id="profileBtn" class="btn primary" onclick="fetchProfile()">Get Profile</button>
+                        <button class="btn" onclick="fetchRepos()">Recent Repos</button>
+                    </div>
+                </div>
+                <div id="profileResult" class="result" aria-live="polite"></div>
+                <div id="repoList" class="result" aria-live="polite"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+       <p>© 2025 GitHub Toolkit - MIT Licence</p>
+    <p>Powered by Mutyala Harshith | <a href="https://github.com/MutyalaHarshith" target="_blank">GitHub</a></p>
+  </footer>
+ <script src="script.js"></script>
+</body>
+</html>
