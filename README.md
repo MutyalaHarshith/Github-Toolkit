@@ -1,6 +1,6 @@
-# GitHub Toolkit Pro
+# GitHub Toolkit
 
-**GitHub Toolkit Pro** is a modern, professional web application that lets users:
+**GitHub Toolkit** is a modern, professional web application that lets users:
 
 - Instantly generate ZIP download links for any public GitHub repository (auto-detecting the default branch).
 - View comprehensive GitHub user profiles with statistics and quick links.
@@ -30,31 +30,32 @@
 
 ## 📸 Screenshots
 
-![screenshot-desktop](screenshot-desktop.png)  
+![screenshot-desktop](/assets/image.png)  
 *Example desktop view*  
-![screenshot-mobile](screenshot-mobile.png)  
-*Example mobile view*
 
 ## 🛠️ Usage
 
 1. **Clone or Download**
     ```
-    git clone https://github.com/yourusername/github-toolkit-pro.git
-    cd github-toolkit-pro
+    git clone https://github.com/MutyalaHarshith/Github-Toolkit.git
+    cd Github-Toolkit
     ```
 2. **Open the App**
     - Simply open `index.html` in your browser – no build step or server setup needed!
 
 ## 📝 File Structure
-
+```
 github-toolkit-pro/
 │
+├── assets\image.png # This is image
 ├── index.html # The main web app
 ├── README.md # This file
-├── screenshot-desktop.png
-├── screenshot-mobile.png
+├── style.css # This is style file
+├── script.js # This is script file
+├── package.json # This is package file
+├── todo.md # This file
 
-
+```
 ## ⚡ Tech Used
 
 - Plain HTML5, CSS3, JavaScript
@@ -73,7 +74,8 @@ A: Yes—the design is fully responsive.
 
 ## 👨‍💻 Credits
 
-- **Developer**: [Harshith](https://t.me/Mutyalaharshith)  
+- **Developer**: [Mutyala Harshith](https://t.me/Mutyalaharshith)  
 - Massive thanks to [GitHub](https://github.com) for their powerful public APIs.
+
 
 ---
