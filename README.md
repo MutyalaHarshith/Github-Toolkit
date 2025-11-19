@@ -52,8 +52,6 @@ github-toolkit-pro/
 ├── README.md # This file
 ├── style.css # This is style file
 ├── script.js # This is script file
-├── package.json # This is package file
-├── todo.md # This file
 
 ```
 ## ⚡ Tech Used
@@ -79,3 +77,4 @@ A: Yes—the design is fully responsive.
 
 
 ---
+
